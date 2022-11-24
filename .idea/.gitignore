@@ -1,0 +1,76 @@
+HELP.md
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/*
+!.idea/codeStyles/
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Selenium driver folders
+selenium_standalone_zips
+driver_zips
+driver
+
+# Vaadin
+target
+bower_components
+node
+node_modules
+/frontend/generated
+/frontend/index.html
+*/flow-*/frontend
+package-lock.json
+package.json
+**/webpack.generated.js
+**/webpack.config.js
+vite.generated.ts
+vite.config.ts
+tsconfig.json
+types.d.ts
+
+flow-tests/**/package.json
+flow-tests/**/webpack*.js
+flow-tests/**/tsconfig.json
+flow-tests/**/pnpm-lock.yaml
+flow-tests/**/index.html
+yarn.lock
+
+flow-client/src/main/frontend/FlowClient.js
+flow-tests/**/types.d.ts
+flow-tests/**/*.generated.js
+flow-tests/**/*.generated.ts
+flow-tests/**/vite.config.ts
+flow-tests/**/generated/**
+flow-tests/**/pnpmfile.js
+flow-tests/**/.pnpmfile.cjs
+flow-tests/**/*.npmrc
+
+*.xml.versionsBackup
+
+# Ignore generated credentials from google-github-actions/auth
+gha-creds-*.json
+*private.env.json
